@@ -707,8 +707,9 @@ img {
 .hero-media-caption {
     margin-top: 1.6rem;
     font-size: 0.9rem;
-    color: var(--text-muted);
+    color: #000000;
     max-width: 20rem;
+    font-weight: 700;
 }
 
 @media (max-width: 960px) {
