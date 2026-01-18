@@ -724,11 +724,21 @@ img {
     .hero-media {
         order: -1;
     }
+
+    .hero-media-caption {
+        color: #000000 !important;
+        font-weight: 900 !important;
+    }
 }
 
 @media (max-width: 720px) {
     .pillars-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .hero-media-caption {
+        color: #000000 !important;
+        font-weight: 900 !important;
     }
 }
 
